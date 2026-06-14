@@ -1,0 +1,66 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario HTML</title>
+</head>
+<body>
+
+<h1>Formulario de Registro</h1>
+
+<form action="https://httpbin.org/post" method="POST">
+
+    <label>Nombre:</label><br>
+    <input type="text" name="nombre">
+    <br><br>
+
+    <label>Correo:</label><br>
+    <input type="text" name="correo">
+    <br><br>
+
+    <label>Contraseña:</label><br>
+    <input type="password" name="contrasena">
+    <br><br>
+
+    <label>Género:</label><br>
+
+    <input type="radio" name="genero" value="Masculino"> Masculino
+    <input type="radio" name="genero" value="Femenina"> Femenina
+
+    <br><br>
+
+    <label>Intereses:</label><br>
+
+    <input type="checkbox" name="intereses" value="HTML"> HTML
+    <input type="checkbox" name="intereses" value="CSS"> CSS
+    <input type="checkbox" name="intereses" value="JavaScript"> JavaScript
+
+    <br><br>
+
+    <label>País:</label><br>
+
+    <select name="pais">
+        <option value="Republica Dominicana">República Dominicana</option>
+        <option value="Mexico">México</option>
+        <option value="Colombia">Colombia</option>
+    </select>
+
+    <br><br>
+
+    <label>Comentarios:</label><br>
+
+    <textarea name="comentarios" rows="5" cols="40"></textarea>
+
+    <br><br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpiar">
+
+</form>
+
+<br>
+
+<a href="index.html">Volver al inicio</a>
+
+</body>
+</html>
